@@ -5,7 +5,7 @@ unit tests for functions that are used in a data analysis.
 This is one step away from making a Python package.
 
 The demo data analysis is shown here:
-- `notebooks/eda.qmd`
+- `report/eda.qmd`
 
 This literate code documents calls a function, `count_classes`, 
 whose function specifications and documentation lives in `src/count_classes.py`
