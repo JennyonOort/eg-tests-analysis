@@ -32,3 +32,8 @@ def count_classes(data_frame, class_col):
     of class observations in the input DataFrame.
 
     """
+    # Group by the class column and count the observations for each class
+    result = data_frame.groupby(class_col).size().reset_index(name='count')
+    # Rename the class column to match the R function
+    result = result.rename(columns={class_col: 'class'})
+    return result
