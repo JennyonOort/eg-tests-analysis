@@ -1,10 +1,3 @@
-# translated my R Code to Python using ChatGPT.
-# R Code source: 
-# https://github.com/ttimbers/demo-tests-ds-analysis-r/blob/main/R/count_classes.R
-
-import pandas as pd
-
-
 def count_classes(data_frame, class_col):
     """
     Count class observations in a pandas DataFrame.
@@ -39,8 +32,3 @@ def count_classes(data_frame, class_col):
     of class observations in the input DataFrame.
 
     """
-    # Group by the class column and count the observations for each class
-    result = data_frame.groupby(class_col).size().reset_index(name='count')
-    # Rename the class column to match the R function
-    result = result.rename(columns={class_col: 'class'})
-    return result

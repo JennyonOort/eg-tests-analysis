@@ -3,7 +3,7 @@ channels:
   - conda-forge
   - defaults
 dependencies:
-  - ipykernel=6.26.0
   - pandas=2.1.2
-  - python=3.11.6
+  - python=3.11
   - pytest=7.4.3
+  - quarto=1.5.57
