@@ -1,7 +1,7 @@
 services:
   # run jupyter notebook inside jupyter 
   jupyter-notebook:
-    image:  ttimbers/eg-tests-analysis:latest
+    image:  ttimbers/eg-tests-analysis:b7e1262
     ports:
       - "8888:8888"
     volumes:
